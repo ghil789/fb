@@ -4,15 +4,16 @@ import firebase from "firebase";
 import "firebase/storage";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC6thYpl-4Ee827BonqtE9mfAgvAHKMQfM",
-  authDomain: "facebook-2-6eb19.firebaseapp.com",
-  projectId: "facebook-2-6eb19",
-  storageBucket: "facebook-2-6eb19.appspot.com",
-  messagingSenderId: "148443188484",
-  appId: "1:148443188484:web:d3a2698e685c6264361451",
-};
-
-const app = !firebase.apps.length
+    apiKey: "AIzaSyBubRNF6A1Tzapt6Ft9x135YMOc1Hrh3-w",
+    authDomain: "campuslife-c1841.firebaseapp.com",
+    projectId: "campuslife-c1841",
+    storageBucket: "campuslife-c1841.appspot.com",
+    messagingSenderId: "531496213999",
+    appId: "1:531496213999:web:df0abc28346058d16aea1a",
+    measurementId: "G-PP0PF1J9QE"
+  };
+  
+  const app = !firebase.apps.length
   ? firebase.initializeApp(firebaseConfig)
   : firebase.app();
 
